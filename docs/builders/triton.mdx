@@ -42,23 +42,6 @@ images](https://docs.joyent.com/private-cloud/install/image-management) after
 installing Triton. This is not a requirement for Joyent's public cloud offering
 of Triton.
 
-## Installation
-
-To install this plugin using Packer v1.7.0 or later, copy and paste this code into your Packer configuration.
-
-Then, run [`packer init`](https://www.packer.io/docs/commands/init).
-
-```hcl
-packer {
-  required_plugins {
-    triton = {
-      version = ">= 1.0.0"
-      source  = "github.com/hashicorp/triton"
-    }
-  }
-}
-```
-
 ## Configuration Reference
 
 There are many configuration options available for the builder. They are

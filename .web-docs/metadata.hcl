@@ -2,7 +2,7 @@
 # https://github.com/hashicorp/integration-template#metadata-configuration
 integration {
   name = "Triton"
-  description = "TODO"
+  description = "The Triton Packer builder is able to create new images for use with Triton."
   identifier = "packer/BrandonRomano/triton"
   component {
     type = "builder"
