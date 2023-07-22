@@ -24,5 +24,5 @@ packer {
 
 #### Builders
 
-- [builder](/packer/integrations/hashicorp/triton/latest/components/builders/builder/triton) - The Triton Packer builder is
+- [builder](/packer/integrations/BrandonRomano/triton/latest/components/builder/triton) - The Triton Packer builder is
   able to create new images for use with Triton.
