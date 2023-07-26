@@ -6,8 +6,7 @@ supports the Docker API however this builder does not. If you want to create
 Docker images on Triton you should use the Packer Docker builder.
 
 ### Installation
-
-Packer v1.7.0 and later
+To install this plugin add this code into your Packer configuration and run [packer init](/packer/docs/commands/init)
 
 ```hcl
 packer {
@@ -18,6 +17,12 @@ packer {
     }
   }
 }
+```
+
+Alternatively, you can use `packer plugins install` to manage installation of this plugin.
+
+```sh
+packer plugins install github.com/hashicorp/triton
 ```
 
 ### Components
