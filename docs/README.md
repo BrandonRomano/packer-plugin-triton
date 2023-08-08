@@ -29,5 +29,5 @@ packer plugins install github.com/hashicorp/triton
 
 #### Builders
 
-- [triton](/packer/integrations/BrandonRomano/triton/latest/components/builder/triton) - The Triton Packer builder is
+- [triton](/packer/integrations/hashicorp/triton/latest/components/builder/triton) - The Triton Packer builder is
   able to create new images for use with Triton.

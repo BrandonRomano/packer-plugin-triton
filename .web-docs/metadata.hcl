@@ -3,7 +3,7 @@
 integration {
   name = "Triton"
   description = "The Triton Packer builder is able to create new images for use with Triton."
-  identifier = "packer/BrandonRomano/triton"
+  identifier = "packer/hashicorp/triton"
   component {
     type = "builder"
     name = "Triton"
